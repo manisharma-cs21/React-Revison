@@ -36,6 +36,5 @@ and fir us function me normally setColor function me color pass kr denge
 but what if hum onclick function me hi onClick=setColor("colorName") pass kr de cause setColor bhi to ek function hi h ;
 but there is javaScript's Syntax problem jo hmaara onlcick function h wo return value nhi , complete function hi return me 
 chahta h like a hook--
-to hum 
-onClick={()=>setcolor("colorName")}  but hum aise ek arrow function as a return bhej skte h 
+onClick={()=>setcolor("colorName")}  hum  ek arrow function as a return bhej skte h 
 */ 
