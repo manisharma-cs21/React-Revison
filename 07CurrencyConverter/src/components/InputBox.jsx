@@ -37,11 +37,11 @@ function InputBox({
                     disabled={currencyDisable}
                     
                 >
-                    {currencyOptions.map((currency)=>{
+                    {currencyOptions.map((currency)=>(
                         <option key={currency} value={currency}>
                             {currency}
                         </option>
-                    })}
+                    ))}
                 
                 </select>
             </div>
