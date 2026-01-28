@@ -16,9 +16,8 @@ function App() {
 
   const swap=()=>{
     setIsSwapping(true)
-
-
-    setAmount(()=>{
+    
+    setTimeout(()=>{
       setFrom(to)
     setTo(from)
     setConvertedAmount(amount)
@@ -96,3 +95,15 @@ function App() {
 }
 
 export default App
+
+/*   =----------------------------------------------------Main Logic File-------------------------
+ step -1  hum state define krenge 
+ first state amount ke liye 
+ second convertedamount
+ third from ke liye
+ fouth to ke liye mtlb currency type change krne ke liye 
+
+ step -2 now hum function banayenge swap waala 
+ and then ek function convert krne 
+
+*/
