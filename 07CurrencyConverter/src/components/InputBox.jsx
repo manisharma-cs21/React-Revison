@@ -62,7 +62,7 @@ input de ske
 step-3  next hum iput field lenge jo amount ke liye hogi isme bhi hum amount as variable in value,type number, disable bhi 
 user according rkhenge in variable and 
 ek function bnayenge onChange ---onAmountChange jo app file me logically change hoga according to output
-to variable is ---
+ variable is ---
 amount 
 disabledAmount --bydefault false 
 onAmountChange -- is function me changes App file me dekhenge 
